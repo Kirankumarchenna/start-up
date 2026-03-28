@@ -32,7 +32,7 @@ public class RecursiveBinarySearch {
             return -1;
         }
 
-        int mid = (left + right) / 2;
+        int mid = left + (right - left) / 2;
 
         if (nums[mid] == target) {
             return mid;

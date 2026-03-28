@@ -14,10 +14,9 @@ public class BinarySearch {
     static int orderAgnosticBinary(int[] arr, int target){
         int start = 0;
         int end = arr.length-1;
-
+        boolean isAsc = arr[start] < arr[end];
         while(start <= end) {
             int mid = start + (end - start) / 2; //due to integer length complexity
-            boolean isAsc = arr[start] < arr[end];
 
             if(target == arr[mid]){
                 return mid;

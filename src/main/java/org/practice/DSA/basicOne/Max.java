@@ -35,9 +35,15 @@ public class Max {
         }
 
         int max = arr[start];
-        for(int i = start; i < end; i++){
+        for(int i = start; i <= end; i++){
             if(arr[i] > max){
                 max = arr[i];
+            }
+        }
+
+        for(int i : arr){
+            if(i > max){
+                max = i;
             }
         }
         return max;

@@ -3,7 +3,7 @@ package org.practice.DSA.searching.binarySearch.leetcode;
 public class CeilingNumber {
     public static void main(String[] args) {
         int[] arr = {2, 5, 7, 8, 9, 10};
-        int target = 12;
+        int target = 6;
         int ans = ceilingNumber(arr, target);
         System.out.println(ans);
     }

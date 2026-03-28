@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5, 3, 4};
-        int[] arr1 = {1, 2, 3, 4, 5, 6};
+        int[] arr1 = {1, 2, 3, 5, 4, 6};
         bubble(arr1);
         System.out.println(Arrays.toString(arr1));
     }
